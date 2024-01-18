@@ -1,0 +1,19 @@
+.HCHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.HCHeaderNav ul {
+    list-style: none;
+    display: flex;
+}
+
+.HCHeaderNav li {
+    margin: 0 20px;
+}
+
+.HCSelectedLink {
+    font-weight: bold;
+}
