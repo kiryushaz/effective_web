@@ -4,13 +4,16 @@
   --main-text-color: #1F1534;
   --main-bg-color: #FFFFFF;
   --main-btn-color: #458FF6;
+  --main-btn-hover-color: rgba(69, 143, 246, 0.801);
+  --main-btn-focus-color: #2b5a9c;
+
+  --banner-text-title-color: #000000;
+  --banner-text-desc-color: #7D7987;
 
   max-width: 1280px;
   margin: 0 auto;
-  text-align: center;
 
   font-family: 'Mulish', Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
   font-size: 18px;
 
@@ -28,21 +31,25 @@ a {
   text-decoration: inherit;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
+  border-radius: 55px;
+  border: transparent;
   font-family: inherit;
   background-color: var(--main-bg-color);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: .2s background-color;
 }
+
 button:hover {
   border-color: var(--main-btn-color);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+button:focus {
+  outline: 0;
+  box-shadow: none;
 }
