@@ -5,6 +5,7 @@ import banner2 from './assets/banner2.png'
 import banner3 from './assets/banner3.png'
 import Slider from "./components/Slider/Slider"
 import LatestArticle from "./components/LatestArticle/LatestArticle"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Banner reversed={true} image={banner3} title="Download our mobile apps" description="Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely" btnText="Download"/>
       <Slider />
       <LatestArticle />
+      <Footer />
     </>
   )
 }
