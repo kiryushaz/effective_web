@@ -20,6 +20,7 @@
 
 .HCBanner {
     display: flex;
+    text-align: left;
     align-items: center;
     gap: 127px;
     margin-top: 80px;
