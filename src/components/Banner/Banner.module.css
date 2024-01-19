@@ -19,6 +19,8 @@ h2 {
     display: flex;
     flex-direction: row;
     gap: 144px;
+    max-width: 1280px;
+    margin: auto;
     margin-top: 220px;
     margin-bottom: 220px;
 }
@@ -27,6 +29,8 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     gap: 144px;
+    max-width: 1280px;
+    margin: auto;
     margin-top: 220px;
     margin-bottom: 220px;
 }
