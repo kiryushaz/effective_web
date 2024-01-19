@@ -1,7 +1,14 @@
 import ServiceCard from "../ServiceCard/ServiceCard"
 import styles from './OurServices.module.css'
+import {useRef} from "react"
 
 function OurServices() {
+  const buttonRef = useRef(null);
+
+  function handleClick() {
+    buttonRef.current.blur();
+  }
+
   return (
     <>
       <h2>Our services</h2>
@@ -15,6 +22,9 @@ function OurServices() {
         <ServiceCard />
         <ServiceCard />
       </div>
+      <button className={styles.HCServicesButton} onClick={handleClick} ref={buttonRef}>
+        Learn more
+      </button>
     </>
   )
 }
