@@ -2,7 +2,6 @@
     width: 56px;
     height: 2px;
     flex-shrink: 0;
-    margin: auto;
     margin-top: 26px;
     margin-bottom: 33px;
     border-radius: 5px;
@@ -16,40 +15,59 @@ h2 {
     line-height: 56px;
 }
 
-.HCServicesDesc {
+.HCBanner {
+    display: flex;
+    flex-direction: row;
+    gap: 144px;
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
+.HCBannerReversed {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 144px;
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
+.HCBannerText {
+    text-align: left;
+    width: 450px;
+}
+
+.HCBannerTextReversed {
+    text-align: left;
+    width: 380px;
+}
+
+.HCBannerDesc {
     color: var(--banner-text-desc-color);
-    width: 952px;
-    margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 30px;
+    height: 120px;
 }
 
-.HCServicesCards {
-    display: grid;
-    row-gap: 37px;
-    grid-template-columns: repeat(3, 384px); /* width servicecard 350px + margin 34px */
-    justify-content: center;
-}
 
-.HCServicesButton {
+.HCBannerButton {
     border: 1.4px solid #458FF6;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
     padding: 0 54px;
-    margin-top: 72px;
     color: var(--main-btn-color);
 }
 
-.HCServicesButton:hover {
+.HCBannerButton:hover {
     background-color: var(--btn-hover-color);
 }
 
-.HCServicesButton:focus {
+.HCBannerButton:focus {
     outline: none;
     background-color: var(--btn-focus-color);
 }
+
