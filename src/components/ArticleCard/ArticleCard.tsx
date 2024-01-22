@@ -17,7 +17,7 @@ class ArticleCard extends React.Component {
             <p className={styles.HCArticleCardDesc}>
               {this.props.subtitle}
             </p>
-            <a href="#" className={styles.HCArticleCardLink}>Read more</a>
+            <a href="#articles" className={styles.HCArticleCardLink}>Read more</a>
           </div>
         </div>
       </>

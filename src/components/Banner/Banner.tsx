@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Banner.module.css';
+import Button from "../Button/Button";
 
 class Banner extends React.Component {
-
   render() {
     return (
       <>
@@ -14,7 +14,7 @@ class Banner extends React.Component {
             <h2>{this.props.title}</h2>
             <div className={styles.divider}></div>
             <p className={styles.HCBannerDesc}>{this.props.description}</p>
-            <button className={styles.HCBannerButton}>{this.props.btnText}</button>
+            <Button btnText={this.props.btnText} btnIcon={this.props.btnIcon} />
           </div>
         </div>
       </>

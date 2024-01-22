@@ -1,16 +1,14 @@
 import ServiceCard from "../ServiceCard/ServiceCard"
 import styles from './OurServices.module.css'
+import Button from "../Button/Button"
 import img1 from '../../assets/search.svg'
 import img2 from '../../assets/pharmacy.svg'
 import img3 from '../../assets/consultation.svg'
 import img4 from '../../assets/details.svg'
 import img5 from '../../assets/emergency.svg'
 import img6 from '../../assets/tracking.svg'
-import {useRef} from "react"
 
 function OurServices() {
-  const buttonRef = useRef(null);
-
   const cards = [
     {"image": img1, "title": "Search doctor", "subtitle": "Choose your doctor from thousands of specialist, general, and trusted hospitals"},
     {"image": img2, "title": "Online pharmacy", "subtitle": "Buy your medicines with our mobile application with a simple delivery system"},
@@ -19,10 +17,6 @@ function OurServices() {
     {"image": img5, "title": "Emergency care", "subtitle": "You can get 24/7 urgent care for yourself or your children and your lovely family"},
     {"image": img6, "title": "Tracking", "subtitle": "Track and save your medical history and health data"},
   ]
-
-  function handleClick() {
-    buttonRef.current.blur();
-  }
 
   return (
     <>
@@ -34,9 +28,7 @@ function OurServices() {
           return (<ServiceCard image={card["image"]} title={card["title"]} subtitle={card["subtitle"]}/>);
         })}
       </div>
-      <button className={styles.HCServicesButton} onClick={handleClick} ref={buttonRef}>
-        Learn more
-      </button>
+      <Button btnText="Learn More"/>
     </>
   )
 }

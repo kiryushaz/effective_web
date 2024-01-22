@@ -1,0 +1,46 @@
+.HCMainButton {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 40px;
+    margin-bottom: 25px;
+    background-color: var(--main-btn-color);
+    color: var(--main-bg-color);
+}
+
+.HCMainButton:hover {
+    background-color: var(--main-btn-hover-color);
+}
+
+.HCMainButton:focus {
+    outline: none;
+    background-color: var(--main-btn-focus-color);
+}
+
+.HCButton {
+    border: 1.4px solid #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 54px;
+    color: var(--main-btn-color);
+}
+
+.HCButtonInner {
+    display: flex;
+}
+
+.HCButtonInner img {
+    margin-left: 14px;
+}
+
+.HCButton:hover {
+    background-color: var(--btn-hover-color);
+}
+
+.HCButton:focus {
+    outline: none;
+    background-color: var(--btn-focus-color);
+}

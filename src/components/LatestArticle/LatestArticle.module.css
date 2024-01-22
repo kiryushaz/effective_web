@@ -21,26 +21,5 @@ h2 {
     row-gap: 37px;
     grid-template-columns: repeat(3, 384px); /* width card 350px + margin 34px */
     justify-content: center;
-    margin-bottom: 72px;
+    margin-bottom: 144px;
 }
-
-.HCArticleButton {
-    border: 1.4px solid #458FF6;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    padding: 0 66px;
-    margin-top: 72px;
-    color: var(--main-btn-color);
-}
-
-.HCArticleButton:hover {
-    background-color: var(--btn-hover-color);
-}
-
-.HCArticleButton:focus {
-    outline: none;
-    background-color: var(--btn-focus-color);
-}
-

@@ -54,24 +54,3 @@ h2 {
     line-height: 30px;
     height: 120px;
 }
-
-
-.HCBannerButton {
-    border: 1.4px solid #458FF6;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    padding: 0 54px;
-    color: var(--main-btn-color);
-}
-
-.HCBannerButton:hover {
-    background-color: var(--btn-hover-color);
-}
-
-.HCBannerButton:focus {
-    outline: none;
-    background-color: var(--btn-focus-color);
-}
-

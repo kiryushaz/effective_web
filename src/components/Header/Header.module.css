@@ -44,23 +44,3 @@
     color: var(--banner-text-desc-color);
     margin-bottom: 48px;
 }
-
-.HCBannerButton {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    padding: 0 40px;
-    margin-bottom: 25px;
-    background-color: var(--main-btn-color);
-    color: var(--main-bg-color);
-}
-
-.HCBannerButton:hover {
-    background-color: var(--main-btn-hover-color);
-}
-
-.HCBannerButton:focus {
-    outline: none;
-    background-color: var(--main-btn-focus-color);
-}
