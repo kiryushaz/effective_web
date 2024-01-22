@@ -1,9 +1,11 @@
 .HCServiceCard {
+    display: flex;
     width: 350px;
     height: 354px;
-    
     text-align: left;
-
+    margin: 0;
+    padding: 0;
+    border: 0;
     border-radius: 20px;
     background: #FFF;
 
@@ -12,7 +14,6 @@
 }
 
 .HCServiceCardContent {
-    display: flex;
     flex-direction: column;
     margin-left: 38px;
     margin-right: 38px;
