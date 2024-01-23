@@ -1,12 +1,18 @@
 import React from 'react';
 import styles from './Button.module.css'
 
-class Button extends React.Component {
-  constructor(props) {
+type HCButton = {mainBtn?: boolean, btnText: string, btnIcon?: string, onClick: any};
+
+class Button extends React.Component<HCButton, object> {
+  static defaultProps: { onClick: () => void; };
+  buttonRef: React.RefObject<HTMLButtonElement>;
+  handleClick: () => void;
+
+  constructor(props: HCButton) {
     super(props);
     this.buttonRef = React.createRef();
     this.handleClick = () => {
-      this.buttonRef.current.blur();
+      this.buttonRef.current!.blur();
       this.props.onClick();
       // alert(this.buttonRef.current.innerHTML);
     }

@@ -2,7 +2,9 @@ import React from "react";
 import styles from './Banner.module.css';
 import Button from "../Button/Button";
 
-class Banner extends React.Component {
+type HCBanner = {reversed?: boolean, image: string, title: string, description: string, btnText: string, btnIcon?: string};
+
+class Banner extends React.Component<HCBanner> {
   render() {
     return (
       <>

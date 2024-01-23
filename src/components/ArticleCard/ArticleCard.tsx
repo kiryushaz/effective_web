@@ -1,8 +1,9 @@
 import styles from './ArticleCard.module.css'
 import React from "react";
 
-class ArticleCard extends React.Component {
+type HCArticleCard = {image: string, title: string, subtitle: string};
 
+class ArticleCard extends React.Component<HCArticleCard> {
   render() {
     return (
       <>

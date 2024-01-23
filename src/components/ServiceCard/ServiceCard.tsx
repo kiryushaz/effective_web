@@ -1,12 +1,18 @@
 import styles from './ServiceCard.module.css'
 import React from 'react'
 
-class ServiceCard extends React.Component {
-  constructor(props) {
+type HCServiceCard = {image: string, title: string, subtitle: string, onClick: any};
+
+class ServiceCard extends React.Component<HCServiceCard> {
+  static defaultProps: { onClick: () => void; };
+  buttonRef: React.RefObject<HTMLButtonElement>;
+  handleClick: () => void;
+
+  constructor(props: HCServiceCard) {
     super(props);
     this.buttonRef = React.createRef();
     this.handleClick = () => {
-      this.buttonRef.current.blur();
+      this.buttonRef.current!.blur();
       this.props.onClick();
       // alert(this.buttonRef.current.innerHTML);
     }
@@ -27,6 +33,10 @@ class ServiceCard extends React.Component {
       </>
     )
   }
+}
+
+ServiceCard.defaultProps = {
+  onClick: () => {}
 }
 
 export default ServiceCard

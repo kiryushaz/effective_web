@@ -35,8 +35,8 @@ const sliders = [
   },
 ]
 
-class Slider extends React.Component {
-  constructor(props) {
+class Slider extends React.Component<object, {page: number}> {
+  constructor(props: object) {
     super(props);
     this.state = {page: 0};
   }
@@ -67,7 +67,7 @@ class Slider extends React.Component {
           </button>
           }
           <div className={styles.pages}>
-            {sliders.map((item, i) => {
+            {sliders.map((_item, i) => {
               if (i == this.state.page) return (<img src={slider} alt="" />);
               else return (
               <button onClick={() => {this.setState({page: i})}} className={styles.btnArrow}>

@@ -18,8 +18,8 @@ const articles = [
   {"image": cover3, "title": "Natural care for healthy facial skin", "subtitle": "A healthy lifestyle should start from now and also for your skin health. There are some..."},
 ]
 
-class LatestArticle extends React.Component {
-  constructor(props) {
+class LatestArticle extends React.Component<object, {viewAll: boolean}> {
+  constructor(props: object) {
     super(props);
     this.state = {viewAll: false};
   }
