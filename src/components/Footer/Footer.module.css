@@ -1,12 +1,13 @@
 .HCFooter {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 200px;
+    gap: 10%;
     align-items: center;
     justify-content: center;
 
     text-align: left;
-    margin-top: 202px;
+    margin-top: min(30%, 202px);
     width: 100%;
     min-height: 432px;
 
@@ -37,6 +38,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 16px;
 }

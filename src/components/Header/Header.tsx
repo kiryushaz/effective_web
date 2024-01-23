@@ -28,7 +28,7 @@ function Header() {
           </p>
           <Button btnText="Consult Today" mainBtn={true}/>
         </div>
-        <div className="HCBannerImage">
+        <div className={styles.HCBannerImage}>
           <img src={img} alt="img"/>
         </div>
       </div>

@@ -30,6 +30,7 @@
 
 .HCButtonInner {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .HCButtonInner img {
