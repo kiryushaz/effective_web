@@ -6,7 +6,7 @@
     margin-top: 26px;
     margin-bottom: 33px;
     border-radius: 5px;
-    background: #000;
+    background: var(--divider-color);
 }
 
 h2 {
@@ -17,7 +17,7 @@ h2 {
 }
 
 .HCServicesDesc {
-    color: var(--banner-text-desc-color);
+    color: var(--text-desc-color);
     max-width: 952px;
     margin: auto;
     margin-bottom: 80px;

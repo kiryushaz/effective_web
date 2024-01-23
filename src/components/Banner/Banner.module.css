@@ -5,7 +5,7 @@
     margin-top: 26px;
     margin-bottom: 33px;
     border-radius: 5px;
-    background: #000;
+    background: var(--divider-color);
 }
 
 h2 {
@@ -50,7 +50,7 @@ h2 {
 }
 
 .HCBannerDesc {
-    color: var(--banner-text-desc-color);
+    color: var(--text-desc-color);
     margin-bottom: 40px;
     font-size: 18px;
     font-style: normal;

@@ -41,7 +41,7 @@
 
 .HCBannerTextTitle {
     font-size: 48px;
-    color: var(--banner-text-title-color);
+    color: var(--text-title-color);
     margin-bottom: 25px;
 }
 
@@ -49,6 +49,6 @@
     font-size: 21px;
     font-weight: 300;
     line-height: 32px;
-    color: var(--banner-text-desc-color);
+    color: var(--text-desc-color);
     margin-bottom: 48px;
 }

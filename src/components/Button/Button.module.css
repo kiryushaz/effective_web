@@ -19,7 +19,7 @@
 }
 
 .HCButton {
-    border: 1.4px solid #458FF6;
+    border: var(--btn-border);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;

@@ -6,7 +6,7 @@
     margin-top: 26px;
     margin-bottom: 72px;
     border-radius: 5px;
-    background: #000;
+    background: var(--divider-color);
 }
 
 h2 {

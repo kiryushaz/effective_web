@@ -9,9 +9,17 @@
 
   --btn-hover-color: rgba(143, 190, 255, 0.247);
   --btn-focus-color: #a6c6f1b9;
+  --btn-border: 1.4px solid #458FF6;
 
-  --banner-text-title-color: #000000;
-  --banner-text-desc-color: #7D7987;
+  --divider-color: #000000;
+
+  --text-title-color: #000000;
+  --text-desc-color: #7D7987;
+
+  --slider-bg: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  --footer-bg: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+  --box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
 
   margin: 0 auto;
   text-align: center;

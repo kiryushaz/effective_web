@@ -10,7 +10,7 @@
     background: #FFF;
 
     /* drop shadow */
-    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    box-shadow: var(--box-shadow);
 }
 
 .HCServiceCardContent {
@@ -25,7 +25,7 @@
 }
 
 .HCServiceCardTitle {
-    color: var(--banner-text-title-color);
+    color: var(--text-title-color);
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -33,7 +33,7 @@
 }
 
 .HCServiceCardSubTitle {
-    color: var(--banner-text-desc-color);
+    color: var(--text-desc-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 300;

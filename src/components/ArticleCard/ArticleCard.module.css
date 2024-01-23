@@ -15,7 +15,7 @@
     text-align: left;
 
     /* drop shadow */
-    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    box-shadow: var(--box-shadow);
 }
 
 .HCArticleCardCover img {
