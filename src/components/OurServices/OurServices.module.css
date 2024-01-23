@@ -1,0 +1,38 @@
+.divider {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    border-radius: 5px;
+    background: var(--divider-color);
+}
+
+h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.HCServicesDesc {
+    color: var(--text-desc-color);
+    max-width: 952px;
+    margin: auto;
+    margin-bottom: 80px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.HCServicesCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    margin: auto;
+    max-width: 1280px;
+    justify-content: center;
+    margin-bottom: 72px;
+}

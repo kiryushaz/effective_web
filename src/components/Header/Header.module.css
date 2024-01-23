@@ -1,0 +1,54 @@
+.HCHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 56px;
+    max-width: 1280px;
+}
+
+.HCHeaderNav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HCHeaderNav li {
+    margin: 0 20px;
+}
+
+.HCSelectedLink {
+    font-weight: bold;
+}
+
+.HCBanner {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 127px;
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 192px;
+}
+
+.HCBannerText {
+    width: 450px;
+}
+
+.HCBannerTextTitle {
+    font-size: 48px;
+    color: var(--text-title-color);
+    margin-bottom: 25px;
+}
+
+.HCBannerTextDesc {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: var(--text-desc-color);
+    margin-bottom: 48px;
+}

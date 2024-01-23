@@ -1,33 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./components/Header/Header"
+import OurServices from "./components/OurServices/OurServices"
+import Banner from './components/Banner/Banner'
+import banner2 from './assets/banner2.png'
+import banner3 from './assets/banner3.png'
+import icon from './assets/Vector.svg'
+import Slider from "./components/Slider/Slider"
+import LatestArticle from "./components/LatestArticle/LatestArticle"
+import Footer from "./components/Footer/Footer"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      <OurServices />
+      <Banner image={banner2} title="Leading healthcare providers"
+      description="We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver" btnText="Learn more"/>
+      <Banner reversed={true} image={banner3} btnText="Download" btnIcon={icon} title="Download our mobile apps"
+      description="Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"/>
+      <Slider />
+      <LatestArticle />
+      <Footer />
     </>
   )
 }
