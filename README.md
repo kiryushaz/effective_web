@@ -13,4 +13,4 @@ git clone https://github.com/kiryushaz/effective_web.git
 ```
 
 Результат работы:
-![[./screenshots/localhost_5173_.png]]
+<img src="screenshots/localhost_5173_.png" width="100%"/>
